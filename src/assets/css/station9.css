@@ -1,0 +1,17 @@
+#animation{
+    box-sizing: border-box;
+    border: 2px solid #f76707;
+    border-radius: 5px;
+    background-color: #fff4e6;
+    animation-timing-function:cubic-bezier(1200,1200,1200,1200);
+    animation: 1s infinite   running slidein;
+}
+@keyframes slidein {
+    from {
+      transform: translateX(0%);
+    }
+  
+    to {
+      transform: translateX(100%);
+    }
+  }
